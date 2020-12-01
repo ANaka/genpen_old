@@ -1,0 +1,15 @@
+name: genpen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - nb_conda
+  - nb_conda_kernels
+  - pandas
+  - pip=20.0.*
+  - seaborn=0.11.0
+  - shapely
+  - scikit-learn
+  - tqdm
+  - geopandas
